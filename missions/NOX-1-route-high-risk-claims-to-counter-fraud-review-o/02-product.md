@@ -2,13 +2,17 @@
 mission: NOX-1
 title: 'Route high-risk claims to counter-fraud review on internal signals alone'
 role: product
-status: ai_drafted
-version: 1
-author: NoX
-ai_drafted: true
+status: draft
+version: 2
+author: dev
+ai_drafted: false
 ---
 
 # Product spec: Route high-risk claims to counter-fraud review on internal signals alone
+
+| Column | Column |
+| --- | --- |
+|  |  |
 
 ## Goal
 Ensure claims exhibiting strong internal fraud warning signs—such as new policies, frequent prior claims, and high-risk perils—are automatically flagged and routed directly to the counter-fraud investigation queue upon intake, without being blocked or downgraded by a low or missing external vendor score.
@@ -80,3 +84,8 @@ Ensure claims exhibiting strong internal fraud warning signs—such as new polic
 - [ ] Edge case (single internal signal): Verify a single internal indicator alone does not trigger premature fraud routing without vendor corroboration.
 - [ ] Edge case (duplicate intake): Verify idempotency and consistent scoring on re-submitted claims.
 - [ ] Success metric: Review claims operations reporting at 14 and 30 days to confirm 100% routing of high internal risk claims to counter-fraud review.
+
+| Column | Column |
+| --- | --- |
+| A | B |
+# NOX - Insert some passive validations here
