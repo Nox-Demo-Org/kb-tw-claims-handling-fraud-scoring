@@ -2,10 +2,11 @@
 mission: NOX-1
 title: 'Route high-risk claims to counter-fraud review on internal signals alone'
 role: product
-status: draft
+status: approved
 version: 3
 author: dev
 ai_drafted: false
+approved_at: 2026-10-09T07:40:09Z
 ---
 
 # Product spec: Route high-risk claims to counter-fraud review on internal signals alone
